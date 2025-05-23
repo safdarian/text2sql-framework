@@ -11,7 +11,7 @@ This is a lightweight and modular framework designed for students in LLM (Large 
 
 .
 ├── data/                   # Dataset files (e.g., SQLite DBs, JSONs)
-├── nano_data/             # Main codebase
+├── nano_data/             # A Subset of Dataset files (e.g., SQLite DBs, JSONs)
 │   bird_loader.py     # Loads and preprocesses the bird dataset
 │   ├── db_manager.py      # Manages database interactions
 │   ├── evaluation.py      # Provides evaluation metrics and helpers
