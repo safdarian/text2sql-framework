@@ -12,7 +12,7 @@ def run_method(function_template, SLEEP_TIME=30, mode="dev"):
         with open("data/dataset.json", "r") as f:
             data = json.load(f)
     else:
-        with open("nano_data/dataset.json", "r") as f:
+        with open("nano-data/dataset.json", "r") as f:
             data = json.load(f)
 
 
